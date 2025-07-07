@@ -1,0 +1,6 @@
+name: Minecord
+version: '${project.version}'
+main: me.locusdevs.minecord.Main
+api-version: '1.21'
+authors: [LocusDevsTeam]
+description: This plugin it was created from LocusDevsTeam if you need support join discord: https://discord.gg/d2xjFcbrPa or contact email: locusdevsteam@gmail.com
