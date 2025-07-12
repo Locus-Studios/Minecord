@@ -41,7 +41,7 @@ Secure and private: Only targeted communication is relayed — no open chat leak
 A default config.yml will be created in plugins/Minecord/. Here’s what you need to set:
 
 ```
-bot-token: "YOUR_DISCORD_BOT_TOKEN";
+const DISCORD_BOT_TOKEN = 'YOUR_BOT_TOKEN';
 const WS_URL = 'ws://localhost:8080';
 const DISCORD_CHANNEL_ID = '';
 const ALLOWED_ROLE_ID = 'ID_ALLOWED_ROLE';
