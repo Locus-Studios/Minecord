@@ -1,0 +1,19 @@
+#here you can change the websocket port ps: if you change the websocket port here you need
+#to change also on bot discord
+websocket:
+  port: 8080
+
+messages:
+  prefix-discord: "[Discord]"
+  prefix-success: "✅"
+  prefix-error: "❌"
+
+  format-to-player: "%prefix-discord% [%discordUser% ➜ %minecraftUser%] %message%"
+  format-to-discord: "%minecraftUser%|%discordUser%|%message%"
+
+  error-player-not-found: "%prefix-error% The player '%player%' it's not online."
+  error-bad-format: "%prefix-error% Incorrect format. Use: discordUser|minecraftUser|message"
+  error-no-discord-connected: "%prefix-error% No Discord bots connected."
+
+  success-message-sent: "%prefix-success% Message sent to %player%"
+  success-discord-message-sent: "%prefix-success% Message sent to Discord user %discordUser%"
