@@ -26,10 +26,10 @@ Secure and private: Only targeted communication is relayed — no open chat leak
 1. Download the latest .jar from the releases page.
 
 
-2. Place the .jar file into your server’s plugins/ directory.
+2. Place the .jar file into your proxy’s plugins/ directory.
 
 
-3. Restart or reload your Minecraft server.
+3. Restart or reload your Proxy server.
 
 
 
@@ -41,21 +41,19 @@ Secure and private: Only targeted communication is relayed — no open chat leak
 A default config.yml will be created in plugins/Minecord/. Here’s what you need to set:
 
 ```
-bot-token: "YOUR_DISCORD_BOT_TOKEN"
-command-prefix: "!"
-discord-channel-id: 123456789012345678
-minecraft-role: "DiscordMember"
+bot-token: "YOUR_DISCORD_BOT_TOKEN";
+const WS_URL = 'ws://localhost:8080';
+const DISCORD_CHANNEL_ID = '';
+const ALLOWED_ROLE_ID = 'ID_ALLOWED_ROLE';
 ```
 
 bot-token: Your Discord bot’s token.
 
-command-prefix: Prefix for Discord-side commands (e.g., !msgmc).
+const WS_URL: Here you can config the port of websocket
 
-discord-channel-id: ID of the channel where the bridge operates.
+const DISCORD_CHANNEL_ID: If you don't want to have logs of some messages leave it blank
 
-minecraft-role: (Optional) Only users with this Discord role can interact via Minecraft commands.
-
-
+const ALLOWED_ROLE_ID: Replace with your role
 
 ---
 
