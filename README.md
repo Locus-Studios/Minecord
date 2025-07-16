@@ -2,6 +2,9 @@
 
 # Minecord
 
+<img width="1920" height="1080" alt="Minecord4" src="https://github.com/user-attachments/assets/f878205c-12fd-4777-a089-d065291220dc" />
+
+
 A lightweight Minecraft plugin that lets you privately message fellow players on Discord using in-game commands. Perfect for server communities that want seamless, secure, and in-context communication.
 
 
